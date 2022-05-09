@@ -3,3 +3,69 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+.header, .footer {
+    background-color: #1f2937;
+}
+.footer {
+color: #E5E7EB;
+}
+.hype {
+color: #f9faf8;
+font-size: 36px;
+font-weight: 800;
+}
+Li {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.subtext {
+    color: #E5E7EB;
+}
+.placeholder {
+    color: #E5E7EB;
+}
+.rando {
+font-size: 28px;
+font-weight: 800;
+color: #1f2937;
+}
+.action {
+    background-color: #3882f6;
+}
+.inspire {
+    background-color: #e5e7eb;
+    font-size: 20px;
+    font-style: italic;
+    color: #1f2937;
+}
+.thor {
+    font-size: 20px;
+    font-style: none;
+    font-weight: 800;
+    color: #000000;
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+.info {
+    display: flex;
+}
+.meat {
+    display: flex;
+    flex-direction: column;
+}
+.rando {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
