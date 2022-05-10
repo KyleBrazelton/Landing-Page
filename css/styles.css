@@ -3,16 +3,78 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 .header, .footer {
     background-color: #1f2937;
 }
 .footer {
 color: #E5E7EB;
 }
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+.headcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+.hypecontainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+} 
 .hype {
+display: flex;
+flex-direction: column;
 color: #f9faf8;
 font-size: 36px;
 font-weight: 800;
+width: 600px;
+}
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 Li {
     font-size: 18px;
@@ -21,7 +83,16 @@ Li {
 }
 .headerlogo {
     font-size: 24px;
+    font-weight: 800;
     color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
+}
+.headlinks {
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 .subtext {
     color: #E5E7EB;
@@ -67,5 +138,17 @@ color: #1f2937;
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+img {
+    max-width: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
 
