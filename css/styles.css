@@ -3,11 +3,61 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.headcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 10px 100px 10px 100px;
+}
+.headerlogo img{
+max-width: 220px;
+height: auto;
+}
+.headlinks a{
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 0px 25px 0px 0px;
+}
 
+.hypecontainer {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 100px;
+}
+.hype {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 600px;
+    margin-right: 50px;
+}
+.hype h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.hype p {
+    color: #dbe0e4;
+}
 
-
-
-
+.hype button {
+    
+}
 
 
 
